@@ -2,16 +2,19 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: black;
-	font-family: Arial, sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 /* início estilização do header */
 header h1 {
+	font-family: 'Raleway', sans-serif;
 	background: linear-gradient(#33A8DB, #1472B7);
 	-webkit-background-clip: text;
 	color: transparent;
+	font-weight: 900;
 	font-size: 40px;
 	margin-bottom: 4px;
+	text-transform: uppercase;
 }
 
 header p {
@@ -20,9 +23,9 @@ header p {
 	font-weight: normal;
 }
 
-header h1, button {
-	font-family: Raleway, sans-serif;
-	text-transform: uppercase;	
+header button {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
